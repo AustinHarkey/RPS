@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body id="body">
+
+<div class="wrapper">
+    <img class="title__logo" src="img/title.png">
+    <h2 class="start">Start Game</h2>
+
+    <div class="display">
+        <div class="display__countdown">
+            <p class="display__count three">3</p>
+            <p class="display__count two">2</p>
+            <p class="display__count one">1</p>
+        </div>
+        <div class="display__results">
+            <h2 class="display__result"></h2>
+            <h3 class="display__details"></h3>
+            <h4 class="display__again">Play Again <i class="fas fa-redo"></i></h4>
+        </div>
+    </div>
+
+    <div id="choices" class="choices">
+        <h2 data-type="rock" class="choice choice__rock">Rock</h2>
+        <h2 data-type="paper" class="choice choice__paper">Paper</h2>
+        <h2 data-type="scissors" class="choice choice__scissors">Scissors</h2>
+    </div>
+</div>
+    
+
+<script src="script.js"></script>
+</body>
+</html>
